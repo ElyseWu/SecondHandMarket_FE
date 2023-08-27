@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# This is a secondhand market app, let user can search second hand items nearby, user can search by category or keyword, user can also set destination city and distance to find out target items
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## landing page: whether user login or not, user can view items and click one item to check item detail
 
-## Available Scripts
+### all items page: all the available items (not sold yet)
 
-In the project directory, you can run:
+<img width="900" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/a1654887-83f3-49e7-9f66-778189b8b0bc">
 
-### `npm start`
+#### user can set destination city with autocomplete and distance 
+![image](https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/45946c7a-9d64-4e05-b3d2-3eae824f1914)
+![image](https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/981db3c3-3711-4ef2-87c3-262c46c37056)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### category 
+![image](https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/31267db2-f03c-481d-84ea-8b6933060eeb)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### item detail page before login
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="900" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/20d64f9b-5278-48f8-a609-cf3a5bd3f7e0">
 
-### `npm run build`
+### item detail page after login, user can favorite the item, can ask information with seller, user can check the chat box
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="900" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/394d7f0f-636b-4f8e-8d46-dfc7ef9c12b2">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## After user login, user can upload item
+<img width="900" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/a7fb11e7-206d-431b-8d36-aeb742467391">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### After login, user can check own items
+<img width="900" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/f9d3e7a9-df3e-4085-8388-d3ac318b3127">
 
-### `npm run eject`
+#### user can set item sold or set item relist again 
+![image](https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/7bcc9fcd-3eff-4f97-9bbe-e8a6a4456984)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### user can modfiy item's information
+<img width="900" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/f092a58c-139f-4b6c-99ce-c0ef2bb02183">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### user can delete his/her own item/items
+![image](https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/23958eba-8fdb-46b2-9f2d-009e1864ba7b)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### user can check favorite items and click the item into item detail page
+<img width="667" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/84eac9b8-e745-4f35-9a92-e358cac8eedb">
 
-## Learn More
+### user can check chat history and notifications
+<img width="883" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/3e8ba2fe-c814-4993-9c06-add5e383f9ab">
+<img width="863" alt="image" src="https://github.com/ElyseWu/SecondHandMarket_FE/assets/99052684/658f9e2a-7c8e-4b51-9798-0e53c7ee74c5">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
